@@ -1,14 +1,14 @@
-const header = document.getElementById("header");
+const winterFun = ["Build a snowman" , "Make hot chocolate" , "Sing Christmas Carols" , "Get snuggles with a blanket and a fire (if possible)"];
+const summerFun = ["Go to the beach" , "Go on a hike" , "Be awesome" , "Go to a farmers market"];
 
-// Get buttons by their IDs
-const pinkButton = document.getElementById("pink-button");
-const purpleButton = document.getElementById("purple-button");
+const switchList = ()
+    const winterFunIfChecked = document.getElementById(winterFun)
+    const summerFunIfChecked = document.getElementById(summerFun)
 
-// Add event listeners to change header color
-pinkButton.addEventListener("click", function() {
-    header.style.color = "pink";
+winterFun.addEventListener("click", function() {
+    ;
 });
 
-purpleButton.addEventListener("click", function() {
-    header.style.color = "purple";
+summerFun.addEventListener("click", function() {
+    ;
 });
